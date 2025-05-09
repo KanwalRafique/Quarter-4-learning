@@ -107,6 +107,11 @@ async def chat(message: Message):
 fastapi dev main.py
 Then visit: http://localhost:8000/docs for interactive Swagger UI 🧪
 
+![Screenshot 2025-05-09 212557](https://github.com/user-attachments/assets/a032dbce-7024-4d27-8121-88eb8dea1d66)
+
+
+
+
 
 
 
