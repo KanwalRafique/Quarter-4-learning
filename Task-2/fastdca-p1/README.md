@@ -11,8 +11,10 @@ uv init hello-pakistan
 cd hello-pakistan
 ```
 ## 🐍 Step 2: Create and Activate the Virtual Environment
-On macOS/Linux:
+## On macOS/Linux:
+
 uv venv
+
 ```source .venv/bin/activate```
 
 ## On Windows:`
@@ -21,7 +23,7 @@ uv venv
 
 ```✅ Note: If you're using Python 3.11+, manual activation might not be necessary thanks to PEP 582.```
 
-📦 Step 3: Install Dependencies
+## 📦 Step 3: Install Dependencies
 ```Install FastAPI and Uvicorn:```
 ```uv add "fastapi[standard]"```
 
