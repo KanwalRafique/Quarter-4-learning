@@ -36,6 +36,7 @@ Add development dependencies like pytest:
 Create a file named main.py and add the following code:
 
 ## CODE: 
+```
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -47,6 +48,7 @@ def read_root():
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: str | None = None):
     return {"item_id": item_id, "q": q}
+```
 
 
 ## 🚀 Step 5: Run the Server
